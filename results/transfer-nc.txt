@@ -1,0 +1,14 @@
+From	To	Amount	Limit	Balance	Currency
+Missing	Missing	10K	Under	Sufficient	Same
+Missing	Active	BetweenZeroAnd10K	Exact	Exact	Different
+Frozen	SameAsFrom	ZeroOrLess	Over	Sufficient	Different
+Active	Active	BetweenZeroAnd10K	Over	Insufficient	Same
+Active	SameAsFrom	10K	Under	Insufficient	Different
+Active	Missing	ZeroOrLess	Exact	Sufficient	Same
+Frozen	Missing	BetweenZeroAnd10K	Under	Exact	Same
+Frozen	Missing	ZeroOrLess	Exact	Insufficient	Different
+Missing	SameAsFrom	10K	Over	Exact	Same
+Frozen	SameAsFrom	BetweenZeroAnd10K	Exact	Sufficient	Different
+Frozen	Active	10K	Exact	Sufficient	Different
+Active	Active	ZeroOrLess	Under	Exact	Same
+Missing	Missing	ZeroOrLess	Over	Insufficient	Same
