@@ -5,5 +5,5 @@ Limit: Under, Exact, Over
 Balance: Sufficient, Exact, Insufficient
 Currency: Same, Different
 
-IF NOT [From] = "Active" THEN [Limit] = "Over";
-IF NOT [From] = "Active" THEN [Balance] = "Insufficient";
+IF [From] = "Active" THEN [Limit] = "Under";
+IF [From] = "Active" THEN [Balance] = "Sufficient";
